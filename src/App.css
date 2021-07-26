@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto,consolas;
+}
+
+.myproduct{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: auto;
+  min-height: 30vh;
+  box-shadow: 5px 5px 20px brown;
+}
+
+.myproduct .fulldata{
+  display: flex;
+  flex-direction: row;
+}
+
+.myproduct .data{
+  display: flex;
+  flex-direction: column;
+  margin:30px;
+}
+
+.myitems{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.item{
+  display: flex;
+  width: 400px;
+  height: 400px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 5px 5px 25px grey;
+  justify-content: space-around;
+
+}
